@@ -1,1 +1,7 @@
-# know-your-target-
+# Coraima Medina Lechuga
+
+
+#Objetivo:
+Shopify.com
+
+#Enlace:
