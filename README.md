@@ -1,7 +1,7 @@
 # Coraima Medina Lechuga
 
 
-#Objetivo:
+# Objetivo:
 Shopify.com
 
-#Enlace:
+# Enlace:
