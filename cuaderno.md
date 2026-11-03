@@ -120,7 +120,7 @@ curl.exe -H "X-API-Key: tuapikey" https://api.dnsdumpster.com/domain/shopify.com
 ```
 
 
-![[Pasted image 20261103122747.png]]
+![[Pasted image 20261103122747.png]](Anexos/Pasted%20image%2020261103122747.png)
 
 
 ### Subdominios 
@@ -1427,7 +1427,17 @@ upcoming3.shopify.com
 2026/11/03 12:15 - objetivo: shopify.com
 https://sitereport.netcraft.com/?url=https://shopify.com
 ```
-![[Pasted image 20261103121335.png]]![[Pasted image 20261103121441.png]]![[Pasted image 20261103121556.png]]![[Pasted image 20261103121646.png]]![[Pasted image 20261103121725.png]]![[Pasted image 20261103121810.png]]![[Pasted image 20261103121843.png]]![[Pasted image 20261103121911.png]]![[Pasted image 20261103121944.png]]![[Pasted image 20261103122024.png]]
+![[Pasted image 20261103121335.png]](Anexos/Pasted%20image%2020261103121335.png)
+![[Pasted image 20261103121441.png]](Anexos/Pasted%20image%2020261103121441.png)
+![[Pasted image 20261103121556.png]](Anexos/Pasted%20image%2020261103121556.png)
+![[Pasted image 20261103121646.png]](Anexos/Pasted%20image%2020261103121646.png)
+![[Pasted image 20261103121725.png]](Anexos/Pasted%20image%2020261103121725.png)
+![[Pasted image 20261103121810.png]](Anexos/Pasted%20image%2020261103121810.png)
+![[Pasted image 20261103121843.png]](Anexos/Pasted%20image%2020261103121843.png)
+![[Pasted image 20261103121911.png]](Anexos/Pasted%20image%2020261103121911.png)
+![[Pasted image 20261103121944.png]](Anexos/Pasted%20image%2020261103121944.png)
+![[Pasted image 20261103122024.png]](Anexos/Pasted%20image%2020261103122024.png) \
+
 Al consultar el dominio `shopify.com` en Netcraft, podemos obtener información sobre las tecnologías que utiliza la página web, como el servidor, el sistema operativo, el alojamiento y otros aspectos de su infraestructura.
 
 Esto nos permite conocer mejor cómo está construida y qué tecnologías utiliza Shopify, algo que puede resultar útil a la hora de analizar su infraestructura desde el punto de vista de la seguridad.
@@ -1459,8 +1469,9 @@ Con estos archivos podemos conocer un poco mejor cómo está organizada la web y
 2026/11/03 12:40 - objetivo: shopify.com
 https://www.shodan.io/search?query=shopify.com
 ```
-![[image.png]]
-![[1.png|300]]
+![[image.png]](Anexos/image.png)
+![[1.png|300]](/Anexos/1.png) \
+
 Al buscar el dominio `shopify.com` en Shodan, podemos ver qué servicios y dispositivos relacionados con este dominio están expuestos en Internet. La herramienta permite consultar información como los puertos abiertos, los servidores y las tecnologías utilizadas. Esto nos ayuda a conocer mejor qué elementos pueden estar accesibles desde el exterior y detectar posibles puntos débiles en la seguridad.
 
 ### Google Dorks
@@ -1469,8 +1480,7 @@ Al buscar el dominio `shopify.com` en Shodan, podemos ver qué servicios y dispo
 intitle:"index of" shopify.com
 ```
 
-
-![[Pasted image 20261103192141.png]]
+![[Pasted image 20261103192141.png]](Anexos/Pasted%20image%2020261103192141.png)
 Al realizar la búsqueda con el comando `intitle:"index of" shopify.com`, aparecen resultados relacionados con personas que solicitan ayuda o publican consultas sobre Shopify. Esto demuestra que Google Dorks también puede utilizarse para localizar páginas y publicaciones públicas que contienen determinadas palabras clave, aunque en este caso no se han encontrado directorios abiertos, sino contenido de usuarios relacionado con la plataforma. 
 
 ### Correos
@@ -1478,5 +1488,5 @@ Al realizar la búsqueda con el comando `intitle:"index of" shopify.com`, aparec
 2026/11/03 13:00 - objetivo: shopify.com
 https://hunter.io/search/shopify.com
 ```
-![[Pasted image 20261103193211.png]]
+![[Pasted image 20261103193211.png]](Anexos/Pasted%20image%2020261103193211.png)
 Al utilizar la herramienta Hunter.io e introducir el dominio `shopify.com`, se obtiene información sobre las direcciones de correo electrónico asociadas a dicho dominio que están disponibles públicamente. Esta herramienta permite identificar posibles contactos profesionales, así como consultar información sobre los correos encontrados y su nivel de verificación.
