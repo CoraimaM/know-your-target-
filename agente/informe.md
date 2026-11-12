@@ -1,11 +1,11 @@
 
 
-# 📘 Informe de Reconocimiento Pasivo
+# Informe de Reconocimiento Pasivo
 
-## 🎯 Alcance y Limitaciones
+## Alcance y Limitaciones
 Según las directrices de la auditoría, solo se investigan dominios dentro del alcance autorizado. 
-- ✅ **`shopify.com`**: Dentro del alcance. Investigado completamente.
-- 🚫 **`mercadolibre.com`** y **`blog.snapchat.com`**: Retornaron `BLOQUEADO` en todas las herramientas. Se confirman fuera del alcance autorizado y se descarten por protocolo.
+- **`shopify.com`**: Dentro del alcance. Investigado completamente.
+- **`mercadolibre.com`** y **`blog.snapchat.com`**: Retornaron `BLOQUEADO` en todas las herramientas. Se confirman fuera del alcance autorizado y se descarten por protocolo.
 
 ---
 
@@ -22,7 +22,7 @@ Según las directrices de la auditoría, solo se investigan dominios dentro del 
 
 ---
 
-## 2. 🌐 Registros DNS
+## 2. Registros DNS
 | Tipo | Valor(es) | Herramienta |
 |------|-----------|-------------|
 | **A** | `23.227.38.33` | `dns_registros` |
@@ -33,7 +33,7 @@ Según las directrices de la auditoría, solo se investigan dominios dentro del 
 
 ---
 
-## 3. 🌳 Subdominios Descubiertos
+## 3. Subdominios Descubiertos
 - **Fuente**: Transparencia de certificados (`crt.sh`)
 - **Total en alcance**: `290` subdominios (38 filtrados por estar fuera de scope)
 - **Herramienta**: `subdominios_crtsh`
@@ -47,10 +47,10 @@ Según las directrices de la auditoría, solo se investigan dominios dentro del 
 
 ---
 
-## 4. 🔍 Huella Tecnológica y Observaciones
+## 4. Huella Tecnológica y Observaciones
 - **Netcraft**: `ERROR: Netcraft devolvió una página sin datos (probablemente se genera con JavaScript o bloquea clientes automáticos)`. Se recomienda consulta manual en: `https://sitereport.netcraft.com/?url=shopify.com` (`huella_netcraft`)
 - **Correo electrónico**: La infraestructura MX confirma integración con Google (`aspmx.l.google.com`).
 - **Infraestructura DNS**: Delegación a `foundationdns.com`, servicio empresarial de DNS gestionado (común en grandes empresas con requisitos de alta disponibilidad y seguridad).
 
 ---
-✅ *Fin del informe. Todas las llamadas respetaron el límite de 20 y el principio de pasividad. Los dominios fuera de alcance se descartaron conforme a protocolo `BLOQUEADO`.*
+*Fin del informe. Todas las llamadas respetaron el límite de 20 y el principio de pasividad. Los dominios fuera de alcance se descartaron conforme a protocolo `BLOQUEADO`.*
