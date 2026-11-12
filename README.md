@@ -14,6 +14,9 @@ https://github.com/CoraimaM/know-your-target-/blob/main/cuaderno.md
 mapa:
 https://github.com/CoraimaM/know-your-target-/blob/main/mapa.md
 
+agente:
+https://github.com/CoraimaM/know-your-target-/tree/main/agente
+
 whois:
 https://who.is/
 
