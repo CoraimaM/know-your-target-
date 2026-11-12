@@ -9,7 +9,7 @@ Según las directrices de la auditoría, solo se investigan dominios dentro del 
 
 ---
 
-## 1. 📋 Registro del Dominio (WHOIS)
+## 1. Registro del Dominio (WHOIS)
 | Campo | Valor | Herramienta |
 |-------|-------|-------------|
 | Dominio | `SHOPIFY.COM` | `whois_dominio` |
